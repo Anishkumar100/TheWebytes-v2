@@ -186,7 +186,7 @@ export default function ServiceDetailPage({ params }) {
                   {service.title}
                 </h1>
 
-                <p className="text-xl md:text-2xl text-[#8DF0FA]/65 leading-relaxed">
+                <p className="text-xl md:text-2xl text-cyan-600 dark:text-[#8DF0FA]/65 leading-relaxed">
                   {service.description}
                 </p>
 
@@ -528,7 +528,7 @@ export default function ServiceDetailPage({ params }) {
                         {related.title}
                       </h3>
 
-                      <p className="text-sm text-[#8DF0FA]/65 mb-4 line-clamp-2">
+                      <p className="text-sm  text-[#8DF0FA]/65 mb-4 line-clamp-2">
                         {related.description}
                       </p>
 
